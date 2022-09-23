@@ -15,7 +15,7 @@ export default function Home(props) {
       sendAirDrop();
       setCount(count => count + 1);
       //4 weeks = 2*7*24*60*60 = 1209600 milliseconds
-    }, 30000);
+    }, 1209600);
     return () => clearInterval(airdrop);
   },
   []);
